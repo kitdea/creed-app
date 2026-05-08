@@ -84,7 +84,7 @@ export default function App() {
   const isReadMode = difficulty === "read";
 
   return (
-    <div style={{ minHeight: "100vh", background: t.bg, transition: "background 0.3s", fontFamily: "'EB Garamond', Georgia, serif" }}>
+    <div style={{ minHeight: "100vh", background: t.bg, transition: "background 0.3s", fontFamily: "'Fira Code', monospace" }}>
       <style>{`
         * { box-sizing: border-box; margin: 0; padding: 0; }
         input::placeholder { color: ${t.blankBorder}; opacity: 1; }
@@ -120,12 +120,12 @@ export default function App() {
             textTransform: "uppercase",
             color: t.accent,
             marginBottom: 10,
-            fontFamily: "'Cinzel', serif",
+            fontFamily: "'Fira Code', monospace",
           }}>
             Sacred Texts · Memorization
           </p>
           <h1 style={{
-            fontFamily: "'Cinzel', serif",
+            fontFamily: "'Fira Code', monospace",
             fontWeight: 600,
             fontSize: "clamp(22px,4.5vw,38px)",
             color: t.bodyText,
@@ -152,7 +152,7 @@ export default function App() {
               color: t.accent,
               cursor: "pointer",
               fontSize: 13,
-              fontFamily: "sans-serif",
+              fontFamily: "'Fira Code', monospace",
               letterSpacing: "0.04em",
               transition: "all 0.2s",
             }}
@@ -188,7 +188,7 @@ export default function App() {
                   : "1.5px solid transparent",
                 background: activeTab === tab.key ? t.tabActive : "transparent",
                 color: activeTab === tab.key ? t.tabActiveText : t.tabText,
-                fontFamily: "'Cinzel', serif",
+                fontFamily: "'Fira Code', monospace",
                 fontSize: "clamp(11px,2vw,14px)",
                 fontWeight: activeTab === tab.key ? 600 : 400,
                 cursor: "pointer",
@@ -219,7 +219,7 @@ export default function App() {
             <span style={{
               fontSize: 11,
               color: t.mutedText,
-              fontFamily: "sans-serif",
+              fontFamily: "'Fira Code', monospace",
               letterSpacing: "0.12em",
               textTransform: "uppercase",
               marginRight: 4,
@@ -246,7 +246,7 @@ export default function App() {
                     color: isActive ? t.accent : t.mutedText,
                     cursor: "pointer",
                     fontSize: 13,
-                    fontFamily: "sans-serif",
+                    fontFamily: "'Fira Code', monospace",
                     fontWeight: isActive ? 700 : 400,
                     transition: "all 0.18s",
                     whiteSpace: "nowrap",
@@ -271,7 +271,7 @@ export default function App() {
                 color: t.foregroundOnAccent,
                 fontSize: 13,
                 fontWeight: 700,
-                fontFamily: "sans-serif",
+                fontFamily: "'Fira Code', monospace",
                 letterSpacing: "0.08em",
                 textTransform: "uppercase",
                 cursor: "pointer",
@@ -294,7 +294,7 @@ export default function App() {
             border: `1px solid ${t.border}`,
             borderRadius: 10,
             color: t.mutedText,
-            fontFamily: "sans-serif",
+            fontFamily: "'Fira Code', monospace",
             fontSize: 13,
             letterSpacing: "0.04em",
           }}>
@@ -344,7 +344,7 @@ export default function App() {
                 color: t.accent,
                 fontSize: 13,
                 fontWeight: 700,
-                fontFamily: "sans-serif",
+                fontFamily: "'Fira Code', monospace",
                 letterSpacing: "0.07em",
                 textTransform: "uppercase",
                 cursor: "pointer",
@@ -364,7 +364,7 @@ export default function App() {
           marginTop: 24,
           fontSize: 12,
           color: t.mutedText,
-          fontFamily: "sans-serif",
+          fontFamily: "'Fira Code', monospace",
           letterSpacing: "0.04em",
           lineHeight: 1.7,
         }}>

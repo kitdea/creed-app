@@ -7,7 +7,7 @@ export default function CreedText({ segments, blanks, answers, revealed, checked
       fontSize: "clamp(15px, 2.2vw, 17px)",
       lineHeight: 2,
       color: t.bodyText,
-      fontFamily: "'EB Garamond', 'Palatino Linotype', Georgia, serif",
+      fontFamily: "'Fira Code', monospace",
     }}>
       {segments.map(seg => {
         const startsNewPara = seg.text.startsWith("\n\n");

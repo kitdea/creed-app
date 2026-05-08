@@ -18,14 +18,14 @@ export default function ScoreBadge({ score, total, theme: t }) {
         fontSize: 22,
         fontWeight: 700,
         color: perfect ? t.correctColor : t.wrongColor,
-        fontFamily: "sans-serif",
+        fontFamily: "'Fira Code', monospace",
       }}>
         {score}/{total}
       </span>
       <span style={{
         fontSize: 12,
         color: perfect ? t.correctColor : t.wrongColor,
-        fontFamily: "sans-serif",
+        fontFamily: "'Fira Code', monospace",
         letterSpacing: "0.04em",
       }}>
         {perfect ? "PERFECT 🙌" : `${pct}% — keep going!`}

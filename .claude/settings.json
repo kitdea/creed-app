@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Rename-Item \"c:\\\\Users\\\\franc\\\\Downloads\\\\creed-app\\\\src\\\\index.js\" \"index.jsx\")",
+      "PowerShell(cd \"c:\\\\Users\\\\franc\\\\Downloads\\\\creed-app\" && Start-Process powershell -ArgumentList \"-NoExit\", \"-Command\", \"cd 'c:\\\\Users\\\\franc\\\\Downloads\\\\creed-app'; npx vite\")"
+    ]
+  }
+}
